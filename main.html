@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="../img/IMG_20250212_181711.jpg">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="navbar">
+                    <span class="nav-brand">menu</span>
+                    <button class="hamburger" id="hamburger" aria-label="Ouvrir le menu">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <ul class="nav-links">
+                        <li><a href="#en-tete"><i class="fas fa-home"></i>Accueil</a></li>
+                        <li><a href="#apropos"><i class="fas fa-user"></i>A Propos </a></li>
+                        <li><a href="#competences"><i class="fas fa-code"></i>Compétences</a></li>
+                        <li><a href="#experiences"><i class="fas fa-briefcase"></i>Expériences</a></li>
+                        <li><a href="#education"><i class="fas fa-graduation-cap"></i>Formations</a></li>
+                        <li><a href="#contact"><i class="fas fa-envelope"></i>Contact</a></li>
+                    </ul>
+            </div>
+        
+        </nav>
+    </header>
+
+     <!--le contenue du cv -->   
+    <main>
+        <button id="backToTop"><i class="fas far fa-arrow-alt-circle-up"></i></button>
+        <button id="soleil"><i class="fas fa-moon"></i></button>
+        <section class="en-tete" id="en-tete">
+            <div class="photo">
+                <img src="../img/IMG_20250212_181711.jpg" alt="photo de profil">
+                <a href="mailto:moustapha.faye4@gmail.com"><i class="fas fa-envelope"></i>moustapha.faye4@gmail.com</a>
+                <a href="tel:+33612345678"><i class="fas fa-phone"></i>+221 76 292 20 72</a>
+                <a href="https://www.google.com/maps/place/Thies-Leona/@12.596111,-16.273889,15z/data=!3m1!4b1!4m2!3m1!1s0x0:0x0?hl=fr" target="_blank"><i class="fas fa-map-marker-alt"></i>Thies-leona</a>
+            </div>
+            <div class="infos-personnelles">
+                <h1>Moustapha  FAYE</h1>
+                
+                <p>Etudiant en informatique</p>
+                <p>Développeur web junior</p>
+                <p>debutant en Data Analyst</p>
+            </div>
+            
+            
+        </section>
+        <div class="contenu">
+            <div class="gauche">
+                <!--separation des rubriques avec display grid il se retrouverons a gauche-->
+                <section class="education" id="education">
+                    <h3>parcours academiques</h3>
+                    <div class="descrption">
+                        <h5>Licence Informatique 2</h5>
+                        <p>Universite Iba der thiam Thies</p>
+                        <p>En Cours</p>
+                        
+                    </div>
+                    <div class="descrption">
+                        <h5>Licence Informatique 1</h5>
+                        <p>Universite Iba der thaim Thies</p>
+                        <p>2024-2025</p>
+                    </div>
+                    <div class="descrption">
+                        <h5>Baccalaureat Scientifique</h5>
+                        <p>Nouveau lycee de louga</p>
+                        <p>Mention :<span> Assez-bien</span></p>
+                        <p>2023-2024</p>
+                        
+                    </div>
+                    <div class="descrption">
+                        <h5>BEFEM</h5>
+                        <p>CEMT de louga</p>
+                        <p>2020-2021</p>
+                        
+                    </div>
+
+                </section>
+
+                <section class="competences" id="competences">
+                    <h3>competences</h3>
+                    <div class="skill">
+                        <div class="skill-name">HTML</div>
+                        <div class="progress-bar">
+                            <div class="progress html">90%</div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-name">CSS</div>
+                        <div class="progress-bar">
+                            <div class="progress css">75%</div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-name">JavaScript</div>
+                        <div class="progress-bar">
+                            <div class="progress js">40%</div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-name">Python</div>
+                        <div class="progress-bar">
+                            <div class="progress python">60%</div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-name">SQL</div>
+                        <div class="progress-bar">
+                            <div class="progress sql">30%</div>
+                        </div>
+                    </div>
+
+                </section>
+
+                <section class="langues">
+                    <h3>Langues</h3>
+                    <div class="des">
+                        <h5>wolof </h5>
+                        <p>native</p> 
+                    </div>
+                    <div class="des">
+                        <h5>Francais </h5>
+                        <p>fluide</p> 
+                    </div>
+                    <div class="des">
+                        <h5>Anglais</h5>
+                        <p>moyen</p>
+                        
+                    </div>
+                </section>
+            </div>
+
+            <div class="droite">
+                <!--separation des rubriques avec display grid il se retrouverons a droite-->
+                <section class="apropos" id="apropos">
+                    <h3>A Propos</h3>
+                    <p>
+                        Passionné par la programmation, je maîtrise le langage <strong>Python</strong> 
+                        et je développe actuellement mes compétences en <strong>développement web full stack</strong>.  
+                        Mon objectif est de créer des applications performantes et modernes, 
+                        en alliant robustesse du back-end et fluidité du front-end.  
+                        Curieux et motivé, je cherche à contribuer à des projets innovants 
+                        tout en continuant à progresser dans le domaine du développement logiciel.
+                    </p>
+                </section>
+
+                <section class="experiences" id="experiences">
+                  <h3>Experiences</h3>
+                    <div class="experience-item">
+                        <h5>Projet Sen'au - Plateforme de gestion</h5>
+                        <span class="date">Avril 2026 - Mai 2026</span>
+                        <p>
+                        Développement d'une plateforme web <strong>Sen'au</strong> permettant la gestion des services.  
+                        Technologies utilisées : <strong>Templates HTML</strong>,<strong>CSS</strong>,<strong>Python</strong>, <strong>Flask</strong>, <strong>SQLite3</strong>.  
+                        Déploiement réalisé sur <strong>Render</strong><br> 
+                        Rôle : conception et écriture du code (back-end et intégration front-end).
+                        </p>
+                        <a href=" https://bdr-projet.onrender.com" target="_blank"><button>Voir Plus</button></a>
+                    </div>
+
+                    <!-- Projet Le Tropical -->
+                    <div class="experience-item">
+                        <h5>Projet Le Tropical - Système hospitalier</h5>
+                        <span class="date">Mai 2026 - juin 2026</span>
+                        <p>
+                        Conception et développement d'un système hospitalier nommé <strong>Le Tropical</strong> 
+                        visant à numériser l'ensemble des services médicaux (gestion des rendez-vous, dossiers patients, prescriptions, facturation).  
+                        Technologies utilisées : <strong>Python</strong>, <strong>Flask</strong>, <strong>SQLite3</strong>.  
+                        Déploiement réalisé sur <strong>Render</strong>.  
+                        Rôle : création du code et intégration des fonctionnalités principales.
+                        </p>
+                        <a href="https://projet-merise.onrender.com" target="_blank"><button>Voir Plus</button></a>
+                        
+                    </div>
+                    <div class="experience-item">
+                        <h5>Projet Django - Menu Restaurant</h5>
+                        <span class="date">Fevrier 2026</span>
+                        <p>
+                        Développement d'une petite application web avec <strong>Django</strong>, 
+                        intégrant un <strong>admin panel</strong> pour la gestion de la base de données.  
+                        Projet réalisé pour un restaurant, permettant la gestion et l'affichage du <strong>menu en ligne</strong>.  
+                        Technologies utilisées : <strong>Python</strong>, <strong>Django</strong>
+                        Déploiement réalisé sur <strong>PythonAnyWhere</strong>. 
+                        Rôle : création du code, configuration de l'admin panel et mise en place des fonctionnalités principales.
+                        </p>
+                        <a href="https://cours.pythonanywhere.com/" target="_blank"><button>Voir Plus</button></a>
+                        
+                    </div>
+
+                  
+                </section>
+                
+                <section class="centre">
+                    <h5>Centre d'interet</h5>
+                    <p>Football</p>
+                    <p>Catch Americain</p>
+                    <p>association sociale</p>
+                    
+
+                   
+                </section>
+
+
+            </div>
+        </div>
+    </main>
+    <section id="contact">
+        <h3>Contact</h3>
+        <form id="contactForm">
+            <label for="nom">Nom Prenom:</label>
+            <input type="text" id="nom" name="nom" required placeholder="ex: moustapha faye">
+
+            <label for="email" >Adresse Email :</label>
+            <input type="email" id="email" name="email" required placeholder="faye@gmail.com">
+
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" required placeholder="Votre message"></textarea>
+            <!-- Paragraphe pour afficher les messages -->
+            <p id="formMessage"></p>
+            <button type="submit">Envoyer</button>
+            
+        </form>
+    </section>
+
+    <footer>
+        <h3 id="cord">Mes Coordonnees</h3>
+        <div class="reseau">
+            <a href="https://www.facebook.com/profile.php?id=100086634351082" target="_blank"><i class="fa-brands fa-facebook"></i>Facebook</a>
+            <a href="https://github.com/taphzo221" target="_blank"><i class="fa-brands fa-github"></i>github</a>
+            <a href="https://www.facebook.com/profile.php?id=100086634351082" target="_blank"><i class="fa-brands fa-instagram"></i>Instagram</a>
+            <a href="" target="_blank"><i class="fa-brands fa-whatsapp"></i>Whatsapp</a>
+        </div>
+        <p>© 2026 Moustapha FAYE. Tous droits reservés.</p>
+    </footer>
+    <script src="../js/app.js"></script>
+</body>
+</html>
